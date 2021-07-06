@@ -1,6 +1,7 @@
 import './App.css';
 import {useState, useEffect} from 'react';
 import Navbar from './components/Navbar/Navbar';
+import Pokedex from './components/Pokedex/Pokedex';
 
 function App() {
  
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <h1>hello</h1>
       <Navbar/>
-
+      <Pokedex/>
     </div>
   );
 }
